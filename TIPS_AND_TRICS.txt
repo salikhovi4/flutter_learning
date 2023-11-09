@@ -1,0 +1,8 @@
+
+# Отладка приложения (запуск в режиме дебаг) через wi-fi
+https://medium.com/@mfqscode/how-to-debug-wirelessly-on-flutter-with-an-ios-device-5ea1ff55adf4
+
+
+# Объяснение про BuildContext
+https://api.flutter.dev/flutter/widgets/BuildContext-class.html
+https://www.youtube.com/watch?v=9I8xwZXs4h0

@@ -1,0 +1,41 @@
+
+# WebSocketClient
+https://pub.dev/package/ws
+
+
+# Графики, диаграммы
+package: fl_chart
+
+
+# Чтобы не было одновременных вызовов одного и того же метода с разных мест,
+а также для эфемерного (временного) кэширования (на какой то Duration)
+package: async -> AsyncCache
+
+Дополнительно посмотри AsyncCache.ephemeral()
+
+Правила кэширования:
+1) Эфемерное, на время вызова
+2) На определенное в процессе время (например хедеры) для различных запросов (в тч и на одну ручку)
+3) Длительное в персистент хранилище, например как это происходит с cached network image хранящим картиночки в скульлайте
+4) Перманентное на время работы приложения aka AsyncMemoizer
+
+
+Wiredash - довольно интересный SDK для сбора фидбека для Flutter приложений.
+Он позволяет пользователю отправить сообщение и приложить снапшот текущего состояния приложения.
+
+
+# Bubble анимация
+https://pub.dev/packages/concentric_transition
+
+
+Подобие Expanded (https://api.flutter.dev/flutter/widgets/Expanded-class.html) и
+Flexible (https://api.flutter.dev/flutter/widgets/Flexible-class.html) от мира
+Sliver (https://docs.flutter.dev/ui/layout/scrolling/slivers).
+
+Использование этих виджетов может очень сильно упростить вам жизнь во время разработки:
+SliverCrossAxisExpanded (https://api.flutter.dev/flutter/widgets/SliverCrossAxisExpanded-class.html),
+SliverCrossAxisGroup (https://api.flutter.dev/flutter/widgets/SliverCrossAxisGroup-class.html),
+SliverConstrainedCrossAxis (https://api.flutter.dev/flutter/widgets/SliverConstrainedCrossAxis-class.html),
+SliverMainAxisGroup (https://api.flutter.dev/flutter/widgets/SliverMainAxisGroup-class.html).
+
+Пример https://dartpad.dev/?id=6e2b7245063001576a3a83adb23f1121
