@@ -39,3 +39,6 @@ SliverConstrainedCrossAxis (https://api.flutter.dev/flutter/widgets/SliverConstr
 SliverMainAxisGroup (https://api.flutter.dev/flutter/widgets/SliverMainAxisGroup-class.html).
 
 Пример https://dartpad.dev/?id=6e2b7245063001576a3a83adb23f1121
+
+# Защита приложения
+https://pub.dev/packages/secure_application
